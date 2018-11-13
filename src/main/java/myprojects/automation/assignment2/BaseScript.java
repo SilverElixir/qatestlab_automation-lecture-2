@@ -12,7 +12,6 @@ import org.testng.annotations.BeforeTest;
  */
 public abstract class BaseScript {
 
-    private LoginPage loginPage;
     private static WebDriver driver = null;
 
     @BeforeTest
